@@ -1,0 +1,42 @@
+.custom-shape-divider-bottom-1670139176 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1670139176 svg {
+    position: relative;
+    display: block;
+    width: calc(144% + 1.3px);
+    height: 176px;
+}
+
+.custom-shape-divider-bottom-1670139176 .shape-fill {
+    fill: #FFFFFF;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 110vh;
+    padding:5rem;
+    background: linear-gradient(180deg,#232c7a,pink),url(Assets\bg.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
